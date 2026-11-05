@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sania Thabassum | AI/ML Portfolio</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2e;--text:#eef2ff;--muted:#aab5cf;--accent:#8b9cff;--line:#28334d}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 85% 5%,#202a55 0,transparent 30%),var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1080px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:5;background:#0b1020dc;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0;gap:18px}
+.logo{font-weight:800;letter-spacing:.5px}.logo span{color:var(--accent)}
+.links{display:flex;gap:22px;color:var(--muted);font-size:.94rem}.links a:hover{color:var(--text)}
+.hero{padding:92px 0 72px;display:grid;grid-template-columns:1.5fr .8fr;gap:48px;align-items:center}
+.tag{display:inline-block;color:#c8d0ff;background:#252e55;border:1px solid #3a4778;border-radius:99px;padding:6px 12px;font-size:.82rem}
+h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.05;letter-spacing:-2px;margin:18px 0}
+h1 span{color:var(--accent)}p{color:var(--muted);margin:0 0 18px}
+.hero p{font-size:1.08rem;max-width:620px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:11px 17px;border-radius:12px;background:var(--accent);color:#10152a;font-weight:750;border:1px solid var(--accent);cursor:pointer}
+.btn.secondary{background:transparent;color:var(--text);border-color:var(--line)}
+.orbit{min-height:300px;display:grid;place-items:center;position:relative}
+.glow{width:240px;height:240px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,#9ca9ff,#3b477d 55%,#151c34);box-shadow:0 0 90px #697aff33}
+.initials{width:190px;height:190px;border:1px solid #ffffff55;border-radius:50%;display:grid;place-items:center;font-size:4rem;font-weight:850;background:#10172bd9}
+.float{position:absolute;background:var(--panel);border:1px solid var(--line);padding:10px 13px;border-radius:12px;font-size:.85rem;box-shadow:0 12px 35px #0004}
+.f1{top:20px;left:0}.f2{right:0;top:65px}.f3{bottom:22px;left:10px}
+section{padding:64px 0;border-top:1px solid #202a40}
+.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:2px;font-size:.76rem;font-weight:800}
+h2{font-size:clamp(1.8rem,4vw,2.6rem);margin:8px 0 24px;letter-spacing:-.7px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:linear-gradient(145deg,#151f36,#101729);border:1px solid var(--line);padding:22px;border-radius:18px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:#697aff88}
+.card h3{margin:8px 0;font-size:1.08rem}.card p{font-size:.94rem}
+.icon{font-size:1.45rem}
+.pills{display:flex;gap:8px;flex-wrap:wrap}
+.pill{border:1px solid var(--line);background:#121a2e;border-radius:99px;padding:7px 12px;color:#dce2fa;font-size:.9rem}
+.project{display:flex;flex-direction:column;min-height:235px}.project .pills{margin-top:auto;padding-top:12px}
+.project a{color:#c3ccff;font-weight:700;margin-top:14px}
+.timeline{border-left:2px solid #46538a;padding:4px 0 4px 22px}
+.timeline .card{margin-bottom:14px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+.contact-links{display:grid;gap:12px}
+.contact-links a{padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+footer{padding:28px 0;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+.menu{display:none}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:65px 0 48px;gap:18px}.orbit{min-height:250px}.glow{width:200px;height:200px}.initials{width:158px;height:158px}.grid{grid-template-columns:1fr}.contact{grid-template-columns:1fr}.links{gap:12px;font-size:.82rem}.nav{align-items:flex-start}.logo{white-space:nowrap}.f1{left:3%}.f2{right:2%}}
+@media(max-width:480px){.links a:nth-child(2),.links a:nth-child(3){display:none}h1{letter-spacing:-1px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="logo" href="#home">Sania<span>.</span></a><div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></div></nav>
+<main class="wrap">
+<header class="hero" id="home">
+  <div><span class="tag">AI & Machine Learning Student · Class of 2029</span>
+    <h1>Hi, I'm Sania<br><span>Thabassum.</span></h1>
+    <p>I’m a second-year engineering student exploring AI, machine learning, and practical technology that can solve real-world problems.</p>
+    <div class="actions"><a class="btn" href="#projects">Explore my work ↘</a><a class="btn secondary" href="#contact">Get in touch</a></div>
+  </div>
+  <div class="orbit" aria-label="Sania initials illustration"><div class="glow"><div class="initials">ST</div></div><div class="float f1">🤖 AI / ML</div><div class="float f2">💡 Problem solver</div><div class="float f3">⌘ Always learning</div></div>
+</header>
+<section id="about"><div class="eyebrow">A little about me</div><h2>Curious mind. Practical ideas.</h2><p style="max-width:780px">I’m pursuing a B.Tech in Artificial Intelligence and Machine Learning at BMS Institute of Technology and Management, Bengaluru. I enjoy building early-stage digital products, learning new tools, and working with teams to turn ideas into useful experiences.</p>
+  <div class="grid" style="margin-top:24px"><article class="card"><div class="icon">🎓</div><h3>Education</h3><p>BMS Institute of Technology and Management<br>B.Tech, Artificial Intelligence & Machine Learning<br>2025–2029 · Second year</p></article><article class="card"><div class="icon">🧭</div><h3>Leadership</h3><p>Technical Team Lead in a college club, contributing to collaborative technical work and student initiatives.</p></article><article class="card"><div class="icon">🌱</div><h3>Current focus</h3><p>Growing my AI/ML foundations, building projects, and strengthening software development skills.</p></article></div>
+</section>
+<section id="skills"><div class="eyebrow">My toolkit</div><h2>Skills I'm building with</h2><p>Based on my learning and project experience.</p><div class="pills"><span class="pill">Python</span><span class="pill">C Programming</span><span class="pill">MATLAB</span><span class="pill">HTML & CSS</span><span class="pill">JavaScript</span><span class="pill">Git & GitHub</span><span class="pill">Team Leadership</span><span class="pill">Typing</span><span class="pill">Google Docs</span><span class="pill">AI/ML Concepts</span></div></section>
+<section id="projects"><div class="eyebrow">Selected work</div><h2>Projects with a purpose</h2><p>Early-stage prototypes exploring healthcare, nutrition, civic problem-solving, and legal technology.</p>
+  <div class="grid" style="margin-top:24px">
+    <article class="card project"><div class="icon">🥗</div><h3>AI-Based Food Nutrition Checker</h3><p>Explores food nutrition lookup, calorie tracking, health indicators, and personalized dietary suggestions for Indian foods.</p><div class="pills"><span class="pill">AI/ML</span><span class="pill">Nutrition</span></div><a href="https://food-nutritio-checker.lovable.app" target="_blank" rel="noreferrer">View prototype ↗</a></article>
+    <article class="card project"><div class="icon">🩺</div><h3>Virtual Health Assistant</h3><p>A healthcare-focused prototype designed to make basic health information and assistance easier to explore.</p><div class="pills"><span class="pill">Healthcare</span><span class="pill">Prototype</span></div></article>
+    <article class="card project"><div class="icon">🌍</div><h3>AI Grievance & Civic Platform</h3><p>A digital concept for lodging grievances and collaborating on societal challenges.</p><div class="pills"><span class="pill">Civic Tech</span><span class="pill">Figma</span></div></article>
+    <article class="card project"><div class="icon">⚖️</div><h3>AI Legal Search Engine</h3><p>A prototype concept for searching legal information related to commercial courts.</p><div class="pills"><span class="pill">Legal Tech</span><span class="pill">AI</span></div></article>
+    <article class="card project"><div class="icon">📊</div><h3>Discrete Probability Distributions</h3><p>An educational web app concept for exploring Binomial, Poisson, and Geometric distributions interactively.</p><div class="pills"><span class="pill">Statistics</span><span class="pill">Web App</span></div></article>
+    <article class="card project"><div class="icon">🤝</div><h3>Hackathons & Collaboration</h3><p>Participated in Code Red 3.0 and Solution Challenge 2026, collaborating on technology-driven ideas.</p><div class="pills"><span class="pill">Hackathons</span><span class="pill">Teamwork</span></div></article>
+  </div>
+</section>
+<section id="experience"><div class="eyebrow">Learning journey</div><h2>Experience & milestones</h2><div class="timeline"><article class="card"><h3>Technical Team Lead · College Club</h3><p>Helping coordinate technical initiatives and contribute to student-led projects.</p></article><article class="card"><h3>Hackathon Participant</h3><p>Code Red 3.0 (college level) and Solution Challenge 2026.</p></article><article class="card"><h3>Continuous Learning</h3><p>Completed learning and certification tracks in C and Python through Infosys Springboard; also explored MATLAB through MATLAB Onramp and Linear Algebra with MATLAB.</p></article></div></section>
+<section id="contact"><div class="eyebrow">Let's connect</div><h2>Have an idea? Let's talk.</h2><div class="contact"><div><p>I’m open to learning opportunities, student collaborations, and meaningful technology projects.</p></div><div class="contact-links"><a href="mailto:saniathabassum06@gmail.com">✉️ &nbsp; saniathabassum06@gmail.com</a><a href="https://www.linkedin.com/in/sania-thabassum-68125a383" target="_blank" rel="noreferrer">in &nbsp; Connect on LinkedIn ↗</a><a href="tel:9442233787">☎️ &nbsp; 9442233787</a></div></div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> Sania Thabassum · Built with HTML, CSS & JavaScript.</div></footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+document.querySelectorAll('a[href^="#"]').forEach(link => link.addEventListener("click", event => {
+  const target = document.querySelector(link.getAttribute("href"));
+  if (target) { event.preventDefault(); target.scrollIntoView({behavior:"smooth"}); }
+}));
+</script>
+</body>
+</html>
